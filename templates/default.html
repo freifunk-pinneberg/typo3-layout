@@ -1,0 +1,18 @@
+<f:layout name="default" />
+
+<f:section name="top">
+<!--    <f:render partial="headerSimple" arguments="{title : '{data.title->f:format.raw()}', subtitle : '{data.subtitle->f:format.raw()}'}" /> -->
+   <f:render partial="headerSimple" arguments="{title : 'Freifunk Pinneberg', subtitle : 'Freies WLAN im Kreis Pinneberg'}" />
+</f:section>
+
+<f:section name="content">
+    <f:format.html parseFuncTSPath="">
+        <f:cObject typoscriptObjectPath="lib.content" data="{colPos:1}" />
+    </f:format.html>
+</f:section>
+
+<f:section name="footer">
+    <f:format.html parseFuncTSPath="">
+	CC-BY-SA <nav><f:cObject typoscriptObjectPath="lib.footernavigation.10" /></nav>
+    </f:format.html>
+</f:section>
