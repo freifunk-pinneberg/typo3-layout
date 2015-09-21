@@ -45,6 +45,7 @@ video {
 	margin-right: auto;
 	overflow: hidden;
 	clear: both;
+	position: relative;
 }
 .pageHeader img {
 	height: 70px;
@@ -107,6 +108,9 @@ video {
 .pageHeader .menu a:hover, .pageHeader .menu a:active {
 	text-decoration: underline;
 	color: #E5287A;
+}
+.pageHeader .tx-ffpinodecounter-pi1 {
+	display: none;
 }
 .content {
 	display: block;
@@ -411,4 +415,12 @@ div.csc-mailform legend {
 		float: left;
 	}
 }
-
+@media (min-width: 570px) {
+	.pageHeader .tx-ffpinodecounter-pi1 {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 5px;
+	}
+}
