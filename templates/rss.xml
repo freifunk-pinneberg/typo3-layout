@@ -2,7 +2,6 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<atom:link href="###RSS_link###" rel="self" type="application/rss+xml" />
-
 		<title>###RSS_title###</title>
 		<link>###RSS_link###</link>
 		<description>###RSS_description###</description>
@@ -16,9 +15,7 @@
 			<height>###RSS_image_height###</height>
 			<description>###RSS_image_description###</description>
 		</image>
-
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
-
 		<pubDate>###RSS_pubDate###</pubDate>
 		<lastBuildDate>###RSS_lastBuildDate###</lastBuildDate>
 

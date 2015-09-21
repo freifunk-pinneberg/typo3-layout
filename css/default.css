@@ -1,3 +1,4 @@
+/* Allgemeines */
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -16,18 +17,19 @@ body {
 	padding: 0;
 	max-width: 100%;
 	min-height: 100%;
-	font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 img {
 	max-width: 100%;
 }
 video {
-        display: block;
-        max-width: 100%;
-        max-height: 720px;
-        margin-left: auto;
-        margin-right: auto;
+	display: block;
+	max-width: 100%;
+	max-height: 720px;
+	margin-left: auto;
+	margin-right: auto;
 }
+/* Header */
 .pageHeader {
 	display: block;
 	margin: 0;
@@ -59,17 +61,17 @@ video {
 	float: left;
 }
 .headerWrap .logo, .headerWrap .title {
-    display: inline-block;
+	display: inline-block;
 }
 .pageHeader h1 {
-    font-size: 160%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+	font-size: 160%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .pageHeader h2 {
-    font-size: 110%;
-    margin-top: 0;
-    color: #e5287a;
+	font-size: 110%;
+	margin-top: 0;
+	color: #e5287a;
 }
 .pageHeader h1, .pageHeader h2 {
 	margin-left: 20px;
@@ -112,6 +114,7 @@ video {
 .pageHeader .tx-ffpinodecounter-pi1 {
 	display: none;
 }
+/* Content */
 .content {
 	display: block;
 	width: 100%;
@@ -132,7 +135,7 @@ video {
 	padding-left: 0;
 }
 .content ul li {
-	position: relative;	
+	position: relative;
 	padding-left: 20px;
 	list-style: none;
 }
@@ -157,11 +160,11 @@ video {
 	margin: 10px;
 }
 a {
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 a:link, a:visited {
 	text-decoration: underline;
@@ -182,11 +185,11 @@ th {
 	background-color: #EDEDED;
 }
 tr {
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  -ms-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
 }
 tr:hover {
 	background-color: #EDEDED;
@@ -198,7 +201,6 @@ tr:hover {
 .bloglist-item {
 	margin-bottom: 30px;
 	position: relative;
-	
 }
 .bloglist-item h2, .bloglist-item h3, .bloglist-item h4 {
 	margin-top: 20px;
@@ -223,7 +225,7 @@ tr:hover {
 	background-color: #009ee0;
 	color: #ffffff;
 	border-top-left-radius: 3px;
- 	-webkit-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-ms-transition: all 0.2s linear;
@@ -233,34 +235,33 @@ tr:hover {
 	background-color: #dc0067;
 }
 
-
 /* Große Boxen z.b. Für "Mitmachen" */
 .big-box {
 	display: block;
 	width: 90%;
 	padding: 20px;
-        padding-right: 50px;
+	padding-right: 50px;
 	padding-top: 0;
 	padding-left: 110px;
-        border: 1px solid #ededed;
-        text-decoration: none;
-        color: #444;
-        border-radius: 3px;
+	border: 1px solid #ededed;
+	text-decoration: none;
+	color: #444;
+	border-radius: 3px;
 	overflow: auto;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 .big-box:hover {
 	border-color: #444;
 }
-.big-box img, .small-box img{
+.big-box img, .small-box img {
 	width: 100px;
 	margin: 0;
 	padding: 0;
@@ -289,11 +290,11 @@ img.arrow {
 	overflow: hidden;
 	min-height: 161px;
 	padding-left: 120px;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 .small-box h1 {
 	display: inline;
@@ -302,41 +303,41 @@ img.arrow {
 	margin-top: -30px !important;
 }
 .small-box:hover {
-        border-color: #444;
+	border-color: #444;
 }
 
 /* Footer */
 .footer {
-        display: block;
-        width: 100%;
-        max-width: 1000px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
+	display: block;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	font-size: 80%;
 }
 .footer nav {
-        display: inline;
-        width: 100%;
-        margin: 0;
-        padding: 5px;
+	display: inline;
+	width: 100%;
+	margin: 0;
+	padding: 5px;
 }
 .footer nav ul {
-        display: inline;
-        position: relative;
-        margin: 0;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-        list-style: none;
-        padding: 0;
+	display: inline;
+	position: relative;
+	margin: 0;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding: 0;
 }
 .footer nav ul li {
-        display: inline-block;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 10px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
 }
 
 /* Formulare */
@@ -374,9 +375,8 @@ fieldset {
 div.csc-mailform fieldset li {
 	padding: 0;
 	margin: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 div.csc-mailform fieldset ol {
 	padding: 0;
@@ -390,27 +390,27 @@ div.csc-mailform legend {
 	color: #444;
 }
 
-/* Mobile */
+/* Auflösung abhäniges */
 @media (max-width: 860px) {
 	.small-box {
 		width: 100%;
 	}
 }
 @media (max-width: 400px) {
-        .headerWrap .logo {
-                display: none;
-        }
+	.headerWrap .logo {
+		display: none;
+	}
 
-        .pageHeader h1, .pageHeader h2 {
-                margin-left: 10px;
-        }
-        .content img.float-left, .content img.float-right {
-                max-width: 100%;
-                float: none;
+	.pageHeader h1, .pageHeader h2 {
+		margin-left: 10px;
+	}
+	.content img.float-left, .content img.float-right {
+		max-width: 100%;
+		float: none;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-        }
+	}
 	.content .small-box img.float-left {
 		float: left;
 	}
