@@ -1,4 +1,9 @@
 /*------------ GENERAL ------------*/
+.tx-cal-controller td,
+.tx-cal-controller th {
+	padding: 0px;
+}
+
 .tx-cal-controller .error {
 	border: 3px solid red;
 	padding: 10px;
@@ -473,7 +478,6 @@
 	-webkit-user-select:none;
 	-khtml-user-select:none;
 	overflow-y: visible;
-	height: 411px;
 	border-top: 1px solid #EDEDED;
 }
 
@@ -508,7 +512,7 @@
 
 .tx-cal-controller .gridcontainertop .daynames td {
 	width: 40px;
-	background-color: #009EE0;
+	background-color: #EDEDED;
 }
 
 .tx-cal-controller .scrolltime {
@@ -528,6 +532,7 @@
 	width:100%;
 	margin-top:-1px;
 	border-bottom:1px solid #bcf;
+	height: auto !important;
 }
 
 .tx-cal-controller .scrolltime .timetable .width {
@@ -538,6 +543,7 @@
 	position:relative;
 	margin-left:1px;
 	top:3px;
+	height: auto !important;
 }
 
 .tx-cal-controller .scrolltime .timetable .wrapper .hours {
@@ -672,20 +678,20 @@
 .tx-cal-controller div.default_catheader_allday,
 .tx-cal-controller div.blue_catheader dl,
 .tx-cal-controller div.blue_catheader_allday {
-	border: 1px solid #2952A3;
-	border-left: 4px solid #2952A3;
-	background-color: #668CD9;
+	border: 1px solid #333;
+	border-left: 4px solid #333;
+	background-color: #009EE0;
 	color: #FFFFFF;
 }
 
 .tx-cal-controller .default_catheader_allday a .summary,
 .tx-cal-controller .default_catheader_allday a:visited .summary,
-.tx-cal-controller .default_catheader dd a,
-.tx-cal-controller .default_catheader dd a:visited,
+.tx-cal-controller .default_catheader a,
+.tx-cal-controller .default_catheader a:visited,
 .tx-cal-controller .blue_catheader_allday a .summary,
 .tx-cal-controller .blue_catheader_allday a:visited .summary,
-.tx-cal-controller .blue_catheader dd a,
-.tx-cal-controller .blue_catheader dd a:visited {
+.tx-cal-controller .blue_catheader a,
+.tx-cal-controller .blue_catheader a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -693,7 +699,7 @@
 .tx-cal-controller .vevent .blue_catheader_text,
 .tx-cal-controller .vtodo .default_catheader_text,
 .tx-cal-controller .vtodo .blue_catheader_text{
-	color: #668CD9;
+	color: #009EE0;
 }
 				
 /*------------ GREEN ------------*/
@@ -708,8 +714,8 @@
 
 .tx-cal-controller .green_catheader_allday a .summary,
 .tx-cal-controller .green_catheader_allday a:visited .summary,
-.tx-cal-controller .green_catheader dd a,
-.tx-cal-controller .green_catheader dd a:visited {
+.tx-cal-controller .green_catheader a,
+.tx-cal-controller .green_catheader a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -732,8 +738,8 @@
 
 .tx-cal-controller .orange_catheader_allday a .summary,
 .tx-cal-controller .orange_catheader_allday a:visited .summary,
-.tx-cal-controller .orange_catheader dd a,
-.tx-cal-controller .orange_catheader dd a:visited {
+.tx-cal-controller .orange_catheader a,
+.tx-cal-controller .orange_catheader a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -756,8 +762,8 @@
 
 .tx-cal-controller .pink_catheader_allday a .summary,
 .tx-cal-controller .pink_catheader_allday a:visited .summary,
-.tx-cal-controller .pink_catheader dd a,
-.tx-cal-controller .pink_catheader dd a:visited {
+.tx-cal-controller .pink_catheader a,
+.tx-cal-controller .pink_catheader a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -772,16 +778,16 @@
 
 .tx-cal-controller div.red_catheader dl,
 .tx-cal-controller div.red_catheader_allday {
-	border: 1px solid #A32929;
-	border-left: 4px solid #A32929;
-	background-color: #D96666;
+	border: 1px solid #333;
+	border-left: 4px solid #333;
+	background-color: #E5287A;
 	color: #FFFFFF;
 }
 
 .tx-cal-controller .red_catheader_allday a .summary,
 .tx-cal-controller .red_catheader_allday a:visited .summary,
-.tx-cal-controller .red_catheader dd a,
-.tx-cal-controller .red_catheader dd a:visited {
+.tx-cal-controller .red_catheader a,
+.tx-cal-controller .red_catheader a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -789,55 +795,55 @@
 .tx-cal-controller .vevent .red_catheader_text a
 .tx-cal-controller .vtodo .red_catheader_text,
 .tx-cal-controller .vtodo .red_catheader_text a {
-	color: #D96666;
+	color: #E5287A;
 }
 		
 /*------------ YELLOW ------------*/
 
 .tx-cal-controller div.yellow_catheader dl,
 .tx-cal-controller div.yellow_catheader_allday {
-	border: 1px solid #AB8B00;
-	border-left: 4px solid #AB8B00;
-	background-color: #E0C240;
-	color: #FFFFFF;
+	border: 1px solid #333;
+	border-left: 4px solid #333;
+	background-color: #FFB400;
+	color: #333;
 }
 
 .tx-cal-controller .yellow_catheader_allday a .summary,
 .tx-cal-controller .yellow_catheader_allday a:visited .summary,
-.tx-cal-controller .yellow_catheader dd a,
-.tx-cal-controller .yellow_catheader dd a:visited {
-	color: #FFFFFF !important;
+.tx-cal-controller .yellow_catheader a,
+.tx-cal-controller .yellow_catheader a:visited {
+	color: #333 !important;
 }
 
 .tx-cal-controller .vevent .yellow_catheader_text,
 .tx-cal-controller .vevent .yellow_catheader_text a,
 .tx-cal-controller .vtodo .yellow_catheader_text,
 .tx-cal-controller .vtodo .yellow_catheader_text a {
-	color: #E0C240;
+	color: #FFB400;
 }
 		
 /*------------ GREY ------------*/
 
 .tx-cal-controller div.grey_catheader dl,
 .tx-cal-controller div.grey_catheader_allday {
-	border: 1px solid #4E5D6C;
-	border-left: 4px solid #4E5D6C;
-	background-color: #8997A5;
-	color: #FFFFFF;
+	border: 1px solid #333;
+	border-left: 4px solid #333;
+	background-color: #EDEDED;
+	color: #333;
 }
 
 .tx-cal-controller .grey_catheader_allday a .summary,
 .tx-cal-controller .grey_catheader_allday a:visited .summary,
-.tx-cal-controller .grey_catheader dd a,
-.tx-cal-controller .grey_catheader dd a:visited {
-	color: #FFFFFF !important;
+.tx-cal-controller .grey_catheader a,
+.tx-cal-controller .grey_catheader a:visited {
+	color: #333 !important;
 }
 
 .tx-cal-controller .vevent .grey_catheader_text,
 .tx-cal-controller .vevent .grey_catheader_text a,
 .tx-cal-controller .vtodo .grey_catheader_text,
 .tx-cal-controller .vtodo .grey_catheader_text a {
-	color: #8997A5;
+	color: #333;
 }
 
 /*------------- free & busy styles ----------*/
