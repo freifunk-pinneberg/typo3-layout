@@ -399,8 +399,9 @@ div.csc-mailform legend {
 		display: block;
 		position: fixed;
 		top: 200px;
-		right: 0px;
+		right: 21px;
 		transform: rotate(-90deg);
+		transform-origin: right center 0px;
 	}
 }
 
