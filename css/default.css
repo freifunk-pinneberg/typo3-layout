@@ -406,6 +406,10 @@ div.csc-mailform legend {
 	}
 }
 
+canvas.particles-js-canvas-el, #particles-js {
+	display: none;
+}
+
 /* Auflösung abhäniges */
 @media (max-width: 860px) {
 	.small-box {
@@ -438,5 +442,20 @@ div.csc-mailform legend {
 		top: 0;
 		right: 0;
 		margin: 5px;
+	}
+	canvas.particles-js-canvas-el {
+		display: block;
+	}
+	#particles-js {
+		display: block;
+		position:absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #ededed;
+		background-image: url("");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+		z-index: -20;
 	}
 }
